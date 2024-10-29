@@ -2,4 +2,4 @@
 
 ## Scripts
 
-- `npm run start:idp` - start an Identity Provider.
+- `npm run start` - start an Identity Provider.
