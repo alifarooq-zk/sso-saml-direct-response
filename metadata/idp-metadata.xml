@@ -1,0 +1,34 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="khutaPlatform">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:3000/api/sso/saml2/idp/slo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:3000/api/sso/saml2/idp/redirect"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">Khuta</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">Khuta</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">https://khuta.om</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Technical Contact Name</md:GivenName>
+    <md:EmailAddress>technical@khuta.om</md:EmailAddress>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="support">
+    <md:GivenName>Support Contact Name</md:GivenName>
+    <md:EmailAddress>support@khuta.om</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
